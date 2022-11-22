@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Name</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/style-rtl.css" /> -->
+  </head>
+
+  <body>
+    <!-- Start preloader -->
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+      <div class="loader-section"></div>
+    </div>
+    <!-- End preloader -->
+    <!-- Start Top Header Bar -->
+    <section class="top-header">
+      <div class="container">
+        <div
+          class="d-flex justify-content-between align-items-center flex-column flex-md-row"
+        >
+          <!-- Search -->
+
+          <div class="dropdown search dropdown-slide">
+            <a
+              href="#!"
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              data-hover="dropdown"
+              ><i class="fas fa-search"></i> Search</a
+            >
+            <ul class="dropdown-menu custom-dropdown search-dropdown">
+              <li>
+                <form action="post">
+                  <input
+                    type="search"
+                    class="form-control"
+                    placeholder="Search..."
+                  />
+                </form>
+              </li>
+            </ul>
+          </div>
+          <!-- / Search -->
+          <!-- Site Logo -->
+          <div class="logo">
+            <a href="index.html">
+              <!-- <img src="./images/logo2.png" alt="" /> -->
+              <h2>white logo</h2>
+            </a>
+          </div>
+
+          <!-- Cart -->
+          <ul class="top-menu list-inline">
+            <li class="dropdown cart-nav dropdown-slide">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                data-hover="dropdown"
+                ><i class="fas fa-shopping-cart"></i> <br />
+
+                <div class="count">2</div>
+              </a>
+              <div class="dropdown-menu custom-dropdown cart-dropdown">
+                <!-- Cart Item -->
+                <div class="media">
+                  <a class="pull-left" href="#!">
+                    <img
+                      class="media-object"
+                      src="images/shop/cart/cart-1.jpg"
+                      alt="image"
+                    />
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="#!">Product Name</a>
+                    </h4>
+                    <div class="cart-price">
+                      <span>1 x</span>
+                      <span>1250.00</span>
+                    </div>
+                    <h5><strong>$1200</strong></h5>
+                  </div>
+                  <a href="#!" class="remove"><i class="fas fa-times"></i></a>
+                </div>
+                <!-- / Cart Item -->
+                <!-- Cart Item -->
+                <div class="media">
+                  <a class="pull-left" href="#!">
+                    <img
+                      class="media-object"
+                      src="images/shop/cart/cart-2.jpg"
+                      alt="image"
+                    />
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="#!"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Itaque
+                      </a>
+                    </h4>
+                    <div class="cart-price">
+                      <span>1 x</span>
+                      <span>1250.00</span>
+                    </div>
+                    <h5><strong>$1200</strong></h5>
+                  </div>
+                  <a href="#!" class="remove"><i class="fas fa-times"></i></a>
+                </div>
+                <!-- / Cart Item -->
+
+                <div class="cart-summary">
+                  <span>Total</span>
+                  <span class="total-price">$1799.00</span>
+                </div>
+                <ul class="text-center cart-buttons">
+                  <li>
+                    <a href="cart.html" class="btn btn-small">View Cart</a>
+                  </li>
+                  <li>
+                    <a
+                      href="checkout.html"
+                      class="btn btn-small btn-solid-border"
+                      >Checkout</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- / Cart -->
+            <!-- Wish list -->
+            <li class="wishlist">
+              <a href="wishlist.html"
+                ><i class="fas fa-heart"></i><br />
+
+                <div class="count">3</div>
+              </a>
+            </li>
+            <!-- Account-->
+            <li class="account">
+              <a href="login.html"><i class="fas fa-user"></i><br /> </a>
+            </li>
+
+            <!-- Languages -->
+            <li>
+              <select
+                class="form-select form-select-sm"
+                aria-label=".form-select-sm example"
+              >
+                <option value="EN">EN</option>
+                <option value="Ar">Ar</option>
+              </select>
+            </li>
+
+            <!-- / Languages -->
+          </ul>
+          <!-- / .nav .navbar-nav .navbar-right -->
+        </div>
+      </div>
+    </section>
+    <!-- End Top Header Bar -->
+    <!--start Bottom header  -->
+    <section class="header">
+      <div class="container">
+        <!--start menu   -->
+        <div class="header-item item-center">
+          <div class="menu-overlay"></div>
+          <nav class="menu">
+            <div class="mobile-menu-head">
+              <div class="go-back"><i class="fas fa-angle-left"></i></div>
+              <a href="" class="current-menu-title"></a>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="menu-main">
+              <li>
+                <a
+                  href="index.html
+                "
+                  >Home</a
+                >
+              </li>
+
+              <li class="menu-item-has-children">
+                <a href="#">Categories <i class="fa fa-angle-down"></i></a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <a href="#" class="title">Desktop</a>
+                    <ul>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                      <li><a href="#">Product List</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <a href="offer.html">Special Offer</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+
+              <li class="menu-item-has-children">
+                <a href="#">Brands <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="/brand.html">Product List</a></li>
+                    <li><a href="/brand.html">Product List</a></li>
+                    <li><a href="/brand.html">Product List</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!--End menu  -->
+        <div class="header-item header-icons">
+          <!-- Search -->
+
+          <div class="dropdown search dropdown-slide">
+            <a
+              href="#!"
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              data-hover="dropdown"
+              ><i class="fas fa-search"></i> Search</a
+            >
+            <ul class="dropdown-menu custom-dropdown search-dropdown">
+              <li>
+                <form action="post">
+                  <input
+                    type="search"
+                    class="form-control"
+                    placeholder="Search..."
+                  />
+                </form>
+              </li>
+            </ul>
+          </div>
+
+          <!-- / Search -->
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End bottom header -->
+    <main class="about-page">
+      <!--  page-header Section -->
+      <section class="page-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="content">
+                <ol class="breadcrumb">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">My Account</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End page-header Section -->
+      <!-- Start profile Section Area -->
+      <section class="section profile">
+        <div class="container">
+          <div class="user-profile">
+            <div class="card">
+              <div class="card-body">
+                <ul class="user-profile-list">
+                  <li><span>Full Name:</span>Johanna Doe</li>
+                  <li><span>Email:</span>mail@gmail.com</li>
+                  <li><span>Phone:</span>+880123123</li>
+                  <li><span>Cash Back Money:</span>123 LE</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End profile Section Area -->
+
+      <!-- Start Footer -->
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="box">
+              <div class="logo">
+                <a href="index.html">
+                  <!-- <img src="./images/logo2.png" alt="" /> -->
+                  <h2>white logo</h2>
+                </a>
+              </div>
+              <p class="phone">
+                <i class="fas fa-phone"></i> +123-456-7890 - +111-222-3333
+              </p>
+              <p class="email">
+                <i class="fas fa-envelope"></i> shaikhanas@gmail.com
+              </p>
+              <p class="address">
+                <i class="fas fa-map-marker-alt"></i> Egypt, cario - 400104
+              </p>
+              <p class="time">
+                <i class="fas fa-clock"></i> Open Time: 11:00AM - 11:00PM
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="box">
+              <h3>Categories</h3>
+              <a class="link" href="#home">
+                <i class="fas fa-angle-right"></i>Desktop</a
+              >
+              <a class="link" href="#shop">
+                <i class="fas fa-angle-right"></i>Notebook</a
+              >
+              <a class="link" href="#gallery">
+                <i class="fas fa-angle-right"></i>Storage</a
+              >
+              <a class="link" href="#team">
+                <i class="fas fa-angle-right"></i>Monitors</a
+              >
+              <a class="link" href="#arrivals">
+                <i class="fas fa-angle-right"></i>Network</a
+              >
+              <a class="link" href="#blogs">
+                <i class="fas fa-angle-right"></i>Accessories</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="box">
+              <h3>information</h3>
+              <a class="link" href="#home">
+                <i class="fas fa-angle-right"></i>About Us</a
+              >
+              <a class="link" href="#shop">
+                <i class="fas fa-angle-right"></i>Contact Us</a
+              >
+              <a class="link" href="#gallery">
+                <i class="fas fa-angle-right"></i>Login</a
+              >
+              <a class="link" href="#team">
+                <i class="fas fa-angle-right"></i>Rgister</a
+              >
+              <a class="link" href="#arrivals">
+                <i class="fas fa-angle-right"></i>Brands</a
+              >
+              <a class="link" href="#blogs">
+                <i class="fas fa-angle-right"></i>Our Branches</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="box">
+              <h3>SERVICE</h3>
+              <a class="link" href="#home">
+                <i class="fas fa-angle-right"></i>My Account</a
+              >
+              <a class="link" href="#shop">
+                <i class="fas fa-angle-right"></i>View Cart</a
+              >
+              <a class="link" href="#gallery">
+                <i class="fas fa-angle-right"></i>Wishlist</a
+              >
+              <a class="link" href="#team">
+                <i class="fas fa-angle-right"></i>Track My Order</a
+              >
+              <a class="link" href="#arrivals">
+                <i class="fas fa-angle-right"></i>Privacy Policy</a
+              >
+              <a class="link" href="#blogs">
+                <i class="fas fa-angle-right"></i>Help</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="under-footer">
+          <p>Copyright © 2022 Company Name. All Rights Reserved.</p>
+
+          <ul class="footer-payments">
+            <li>
+              <a href="#"
+                ><img
+                  src="images/visa.jpg"
+                  alt="We accept Visa"
+                  title="We accept Visa"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/western-union.jpg"
+                  alt="We accept Western Union"
+                  title="We accept Western Union"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/PayPal.jpg"
+                  alt="We accept PayPal"
+                  title="We accept PayPal"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/MasterCard.jpg"
+                  alt="We accept MasterCard."
+                  title="We accept MasterCard."
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- SCROLL-UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-angle-double-up scrollup-icon"></i>
+    </a>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
