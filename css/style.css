@@ -2593,8 +2593,8 @@ form .sent-message {
 .products .slick-prev,
 .products .slick-next,
 #product-main-img .slick-next {
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
